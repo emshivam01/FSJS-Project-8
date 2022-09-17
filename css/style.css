@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("../images/backcover.svg");
+    background-position: right;
+    background-size: 63%;
+    background-repeat: no-repeat;
+    background-position: right 0% top 0%;
+
+}
+
+
+
+/* Navbar Styling */
+
+nav {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt="logo"] {
+    width: 95px;
+}
+
+.nav-items {
+    /* border: 2px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: #201677;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #3f4795;
+    font-size: 12px;
+}
+
+.signin-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, #781cbc, #e173f8);
+    color: white;
+}
+
+
+/* Main Content */
+
+.intro-section {
+    display: flex;
+    /* padding: 20px; */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+    border: 2px solid black;
+    padding: 10px 100px;
+    /* padding-left: 130px;
+    padding-top: 100px; */
+}
+
+
+.left-section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3f4795;
+}
+
+.left-section h4 {
+    line-height: 20px;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.learn-more-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, #781cbc, #e173f8);
+    color: white;
+    text-align: center;
+}
+
+.vector-img {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+}
+
+
+.vector-dot {
+    position: absolute;
+    top: 518px;
+    left: 652px;
+}
+
+img[alt="intro-img"] {
+    position: relative;
+    top: 70px;
+    right: 200px;
+    width: 80%;
+}
+
+
+/* Media QUeries for Mobile */
+
+@media screen and (max-width: 768px) {
+
+
+    body {
+        background-image: url("../images/backcover.svg");
+        background-position: right;
+        background-size: 95%;
+        background-repeat: no-repeat;
+        background-position: right 0% top 0%;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .ham {
+        width: 50px;
+    }
+
+    .nav-items {
+        display: none;
+        padding: 20px;
+    }
+
+    nav img:first-child {
+        margin: 0px;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .vector-dot,
+    .vector-img,
+    .signin-btn {
+        display: none;
+    }
+
+    .imgs-div {
+        padding: 10px;
+    }
+
+
+    .imgs-div img:nth-child(3) {
+        position: relative;
+        top: 20px;
+        left: 0px;
+        width: 80%;
+    }
+
+
+    .left-section {
+        padding: 10px;
+        margin: 0px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+    }
+
+    .left-section h1 {
+        font-size: 50px;
+    }
+
+    .left-section h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .learn-more-btn {
+        font-size: 15px;
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+}
+
+
+/* Media Queries for Tablet */
+
+@media screen and (min-width: 769px) {
+
+
+    body {
+        background-image: url("../images/backcover.svg");
+        background-position: right;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: right 0% bottom 10%;
+    }
+
+    .ham {
+        display: none;
+
+    }
+
+    nav {
+        padding: 20px 50px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav button {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .intro-section {
+        margin-top: 40px;
+    }
+
+    .left-section {
+        border: none;
+        width: 50%;
+        padding: 10px 50px;
+    }
+
+    .left-section h4 {
+        width: 70%;
+    }
+
+    .imgs-div {
+        width: 50%;
+        display: flex;
+    }
+
+    .imgs-div img:last-child {
+        width: 90%;
+        position: relative;
+        top: 0px;
+        right: 10px;
+    }
+}
