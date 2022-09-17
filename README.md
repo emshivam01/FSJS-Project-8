@@ -1,10 +1,12 @@
 
 # Service provider's landing page
 
-My name is Shivam Sharma, and this is the eighth project and it is landing page of web service provider.
+**Name :**  Shivam Sharma
 
+**Time taken :**  4-5 hrs
 
- Time taken to complete this project is around **4-5 hrs**
+ This is the project no. 8 and it is landing page of web service provider.
+
 
 **Key learning :** 
 
@@ -20,20 +22,23 @@ My name is Shivam Sharma, and this is the eighth project and it is landing page 
 
 **Deployed On :** 
 
-[![vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://fsjs-project-6.vercel.app/)
+[![vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://fsjs-project-8.vercel.app/)
 
 
 
+## **Screenshots :**
 
-## Screenshots
+&nbsp;
 
 
 ![App Screenshot](./8.png)
 
+&nbsp;
+
 
 ## 🔗 Links
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emshivam/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sharmashivam)
 
